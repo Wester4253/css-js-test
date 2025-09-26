@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+    text-align: center
+}
+.div-2 {
+    text-align: center;
+    color: rgba(4, 101, 131, 0.986);
+    font-size: 20px;
+}
+p {
+    color: goldenrod;
+    font-size: 18px;
+    text-align: center;
+
+
+}
+.tb {
+    align-self: center;
+}
+.div-1 {
+    text-align: center;
+    color: #27a105;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+</style>
+    <meta http-equiv="refresh" content="var2">
+</head>
+<body>
+<div class="div-1">
+<h1>This is a test with CSS.</h1>
+</div>
+<div class="div-2">
+<h2>This is Centered now</h2>
+</div>
+<p>The Current Time Is : <script>document.write(new Date().toLocaleTimeString())</script></p>
+<div style="text-align: center;">
+  <input type="text" id="tb" onkeyup="updatevariable()">
+</div>
+<div id="output" style="text-align: center; margin-top: 20px; font-size: 16px;"></div>
+<script> src="SecretPass.js"</script>
+<script>
+eval(eval(eval(eval(eval(eval(eval(console.log("here is what just got executed : eval(eval(eval(eval(eval(eval(eval(console.log(here is what just got executed : ))))))))"))))))))
+const maxEC = 100;
+const minIC = 1;
+const randomnumber = Math.floor(Math.random() * (maxEC - minIC + 1)) + minIC;
+let mlc =
+
+console.log(randomnumber)
+console.log("it worked!")
+
+console.error("this isn't really an error, i just coded it this way!")
+console.warn("same with this, it isn't a warning. i just coded it this way.")
+console.info("and for the seccond to last time, this isn't a info message. i coded this way!")
+console.debug("alright, last one! this isn't a debug, this is coded this way!")
+;
+eval(mlc)
+function updatevariable() {
+    var tb = document.getElementById("tb");
+    var log = tb.value;
+    var output = document.getElementById("output");
+
+    try {
+        var result = eval(log);
+        output.innerText = "Output: " + result;
+    } catch (e) {
+        output.innerText = "Text: " + log;
+    }
+
+    // this is to log to console
+    console.log(log);
+    var var2 = log;
+    // Update the meta tag content attribute only if it's a number
+    if (!isNaN(var2) && var2.trim() !== "") {
+        document.querySelector('meta[http-equiv="refresh"]').setAttribute("content", var2);
+    }
+
+}
+</script>
+</body>
+</html>
